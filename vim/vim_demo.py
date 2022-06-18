@@ -47,6 +47,7 @@ def func_two(arg1, arg2):
 # y -> Copy (Yank)
 # v -> Select mode
 # u -> Undo
+# :%s/foo/bar -> Search and replace all
 
 def func_three(arg1, arg2):
     """
@@ -56,10 +57,14 @@ def func_three(arg1, arg2):
     project = "gcp-example-project"
     bucket = "gs://example/bucket"
     region = "us-central1"
+    apples = "53"
+    fruit_region = region + apples
     details = [
-        "project",
-        "bucket",
-        "region"
+        project,
+        bucket,
+        region,
+        apples,
+        fruit_region
     ]
     return details
 
