@@ -1,6 +1,7 @@
-# Vim Presentation
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/1200px-Vimlogo.svg.png" alt="vim-logo" width="200"/>
 
 ## What is Vim?
+Vim is a free and open source keyboard only text editor. It's included in most Unix based operating systems.
 
 ## Why use Vim?
 
