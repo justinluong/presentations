@@ -12,5 +12,5 @@ Vim is a free and open source keyboard only text editor. It's included in most U
 ### Why not use the shortcuts built into your editor?
 
 Why Vim over other shortcuts?
-1. It's ubiquotious, most machines already have Vim installed and most editors have a Vim extension
+1. It's transferrable, most machines already have Vim installed and most editors have a Vim extension
 2. Unlikely to go away anytime soon (mature & popular), this skill has a high half-life
