@@ -79,7 +79,20 @@ def func_four(arg1, arg2):
     Lorem Ipsum is simply dumm hel the printing and typesetting industry.
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
     """
-    pass
+    project = "gcp-example-project"
+    bucket = "gs://example/bucket"
+    region = "us-central1"
+    oranges = "53"
+    fruit_region = region + oranges
+    uuid = "6D891A96-5A94-4033-ADAC-B3523A39CD82"
+    details = [
+        project,
+        bucket,
+        region,
+        oranges,
+        fruit_region
+    ]
+    return details
 
 
 ### Basic Navigation Continued ###
