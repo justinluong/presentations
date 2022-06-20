@@ -7,7 +7,7 @@ Vim is a free and open source keyboard only text editor. It's included in most U
 
 ### Main Benefits
 1. Powerful way to navigate and edit code
-2. Allows you to edit files in keyboard only environments such as when you SSH into a VM
+2. Allows you to edit files in keyboard only environments (SSH into a VM, Some CLI tools force you to use it)
 
 ### Why not use the shortcuts built into your editor?
 

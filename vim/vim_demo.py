@@ -48,6 +48,10 @@ def func_two(arg1, arg2):
 # v -> Select mode
 # u -> Undo
 # :%s/foo/bar -> Search and replace all
+# v, u -> Replace with lowercase
+# v, U -> Replace with uppercase
+# :w -> Save file
+# :wq -> Save and quit
 
 def func_three(arg1, arg2):
     """
@@ -59,6 +63,7 @@ def func_three(arg1, arg2):
     region = "us-central1"
     oranges = "53"
     fruit_region = region + oranges
+    uuid = "6D891A96-5A94-4033-ADAC-B3523A39CD82"
     details = [
         project,
         bucket,
